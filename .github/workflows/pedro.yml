@@ -19,6 +19,4 @@ jobs:
         if: always()
         run: echo "${{ job.status }}"
         
-        name: validando se o arquivo README.md existe
-        run: echo "o arquivo README.md existe"
-      
+        
